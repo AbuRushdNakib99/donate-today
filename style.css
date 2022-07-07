@@ -1,9 +1,10 @@
-CSS
 *{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+/* Start Section 1 */
+
 .section1{
     background-image: url("./images/donation6.jpg");
     background-repeat: no-repeat;
@@ -16,7 +17,6 @@ CSS
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 .header1{
     font-size: 70px;
@@ -29,8 +29,59 @@ CSS
     margin: 0 auto;
     display: block;
     padding: 20px;
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 10px;
     background-color: tomato;
     color: white;
 }
+/* End Section 1 */
+
+/* Start Section 2 */
+.middle1{
+    margin-top: 100px;
+    text-align: center;
+    height: 800px;
+    width: 1500px;
+    
+}
+.middle1 h1{
+    font-size: 50px;
+}
+.middle1 button{
+    height: 100px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: bisque;
+    color: rgb(156, 114, 114);
+    font-size: 30px;
+    padding: 5px;
+    margin: 50px;
+}
+.middle1 #twohundred{
+    background-color: rgb(233, 175, 175);
+    color: red;
+}
+.middle1 #but{
+    height: 70px;
+    width: 150px;
+    font-size: medium;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: tomato;
+}
+#middle1 #inpu{
+    height: 100px;
+}
+
+.middle1 #inpu input::placeholder{
+    font-size: large;
+    text-align: center;
+}
+
+#middle1 #inp{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+/* End Section 2 */
+
