@@ -40,9 +40,6 @@
 .middle1{
     margin-top: 100px;
     text-align: center;
-    height: 800px;
-    width: 1500px;
-    
 }
 .middle1 h1{
     font-size: 50px;
@@ -85,3 +82,37 @@
 }
 /* End Section 2 */
 
+/* Start Setion 3 */
+.section3{
+    margin-top: 30px;
+}
+.middle2 #intro{
+    text-align: center;
+}
+.middle2 #intro h1{
+    font-size: 60px;
+}
+.base{
+    text-align: center;
+    height: 300px;
+    padding-left: 20px;
+    display: flex;
+    
+}
+.base #div1{
+    background-color: rgb(218, 253, 242);
+    margin: 10px;
+    
+}
+.base #div2{
+    background-color: rgb(255, 192, 181);
+    margin: 10px;
+}
+.base #div3{
+    background-color: bisque;
+    margin: 10px;
+}
+.base img{
+    margin-top: 10px;
+}
+/* Section 3 End */
